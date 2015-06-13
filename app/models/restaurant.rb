@@ -19,6 +19,7 @@ validates_attachment :avatar,
   ["image/jpeg", "image/gif", "image/png"]
  },
  size: { in: 0..1024.kilobytes }
-
+ 
+  
   
 end

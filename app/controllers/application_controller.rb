@@ -4,15 +4,14 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def after_sign_in_path_for(restaurant)
-    sign_in_url = '/home/locales'
+    sign_in_url = '/locales'
   end
   
   def after_sign_in_path_for(client)
-    sign_in_url = '/home/acercade'
+    sign_in_url = '/acerca-de'
   end
   
-  def after_sign_in_path_for(administrator)
-    sign_in_url = '/home/servicio'
+  def after_sign_in_path_for(user)
+    sign_in_url = '/acerca-de'
   end
-  
 end

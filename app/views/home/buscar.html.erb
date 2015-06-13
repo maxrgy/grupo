@@ -1,0 +1,17 @@
+<h2>Búsqueda por Distrito</h2>
+
+<form class="busqueda">
+                <label for="">DEPARTAMENTO</label>
+                <input type="text" name="" value="Lima"/>
+                <label for="">DISTRITO</label>
+
+  
+  
+  <form accept-charset="UTF-8" action="home/locales" method="get">
+      <%=select("nombre", "@distritoID", District.all.collect {|p| [ p.no_distrito, p.district_id ] }, {prompt: 'Selecciona Distrito'}) %>              
+      <input type="button" value="Buscar" name="busca"/>
+      
+</form>
+  
+  
+  

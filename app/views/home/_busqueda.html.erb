@@ -4,7 +4,8 @@
                 <label for="">DEPARTAMENTO</label>
                 <input type="text" name="" value="Lima"/>
                 <label for="">DISTRITO</label>
-                
-                <%= select("post", "person_id", District.all.collect {|p| [ p.no_distrito, p.district_id ] }, {prompt: 'Selecciona Distrito'}) %>
-                <input type="button" value="Buscar" name="" onclick="location.href = 'locales.html'"/>
-         
+
+  <%=select("nombre", "@distritoID", District.all.collect {|p| [ p.no_distrito, p.district_id ] }, {prompt: 'Selecciona Distrito'}) %>              
+  <%= submit_tag "Buscar" %>
+  
+  

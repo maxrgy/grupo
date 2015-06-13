@@ -16,12 +16,11 @@
     <nav class="menuPrin">
       <div class="conPerfil"><%= link_to "Cerrar sesión", destroy_client_session_path, method: :delete %></div>
       <ul>
-        <li><a href="home/index">INICIO</a></li>
-        <li><a href="home/acercade">ACERCA DE</a></li>
-        <li class="logo"><a href="home/index"><%= image_tag "logo.png" %></a></li>
-        <li><a href="home/servicio">SERVICIO</a></a></li>
-        <li><a href="home/contactenos">CONTACTENOS</a></a></li>
-      </ul>
+        <li><%= link_to "INICIO", :index %></li>
+        <li><%= link_to "LOGIN RESTAURANTES", :sign_in %></li>
+        <li class="logo"><%= link_to image_tag('logo.png'), root_path %></li>
+        <li><%= link_to "ACERCA DE", :acercade %></li>
+        <li><%= link_to "CONTACTENOS", :contacto %></li>
     </nav>
 </header>
 <%= yield %>

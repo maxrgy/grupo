@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  
   def index
   end
 
@@ -14,4 +15,10 @@ class HomeController < ApplicationController
   def locales
     @restaurants = Restaurant.all
   end
+  
+  
+  def buscar
+    
+  end
+  
 end

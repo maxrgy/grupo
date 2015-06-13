@@ -1,17 +1,17 @@
 Rails.application.routes.draw do
-  devise_for :administrators
+  
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  devise_for :users
   devise_for :restaurants, :controllers => { registrations: 'registrations_restaurant' }
   #devise_for :clients
   devise_for :clients, :controllers => { registrations: 'registrations' }
-  get 'home/index'
-
-  get 'home/acercade'
-
-  get 'home/servicio'
-
-  get 'home/contacto'
-  
+  get "/inicio" => "home#index", :as => :index
+  get "/acerca-de" => "home#acercade", :as => :acercade
+  get "/restaurants/sign_in" => "registrations_restaurant#new", :as => :sign_in
+  get "/contactenos" => "home#contacto", :as => :contacto
+  get "/home/servicio"
   get 'home/locales'
+  get 'home/buscar'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
