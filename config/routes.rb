@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :administrators
   devise_for :restaurants, :controllers => { registrations: 'registrations_restaurant' }
   #devise_for :clients
   devise_for :clients, :controllers => { registrations: 'registrations' }

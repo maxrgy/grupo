@@ -3965,3 +3965,1318 @@ ActionController::RoutingError (No route matches [GET] "/home/img/rest1.jpg"):
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (3.4ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'restaurante1@hotmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150613051745')
+  [1m[36m (16.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (2.6ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `orders`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `restaurants`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[36mSQL (15.7ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150613051745'[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `orders`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `restaurants`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to DeviseCreateRestaurants (20150612160458)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[35m (66.5ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'restaurante1@hotmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150613051745')
+  [1m[36m (10.1ms)[0m  [1mCOMMIT[0m
+Migrating to AddAttachmentAvatarToRestaurants (20150613062725)
+  [1m[35m (211.1ms)[0m  ALTER TABLE `restaurants` ADD `avatar_file_name` varchar(255)
+  [1m[36m (98.0ms)[0m  [1mALTER TABLE `restaurants` ADD `avatar_content_type` varchar(255)[0m
+  [1m[35m (108.4ms)[0m  ALTER TABLE `restaurants` ADD `avatar_file_size` int(11)
+  [1m[36m (83.0ms)[0m  [1mALTER TABLE `restaurants` ADD `avatar_updated_at` datetime[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (6.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150613062725')[0m
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `client_addresses`[0m
+  [1m[35m (0.5ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `clients`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `dishes`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `districts`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menu_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menus`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `order_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+
+  [1m[36m (0.3ms)[0m  [1mSHOW CREATE TABLE `orders`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `restaurants`[0m
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-13 06:37:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x000000015968b0>):
+  app/models/restaurant.rb:7:in `<class:Restaurant>'
+  app/models/restaurant.rb:1:in `<top (required)>'
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.5ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-13 06:39:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x007effc64b9778>):
+  app/models/restaurant.rb:7:in `<class:Restaurant>'
+  app/models/restaurant.rb:1:in `<top (required)>'
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.1ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-13 06:46:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by RegistrationsRestaurantController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (1.8ms)
+  Rendered registrations_restaurant/new.html.erb within layouts/application (138.2ms)
+Completed 200 OK in 662ms (Views: 621.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-13 06:48:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r3pJEdvPhRO98BKazFjGJEoQgFPYZQTmgQdhDVSURfSNast5CMnRueYBeCcA/UlrKcXnSSuhbZbe8qdkcV84WA==", "restaurant"=>{"email"=>"rinconcito@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Rinconcito", "telefono"=>"433432244", "direccion"=>"Av. Las Artes 123", "district_id"=>"3", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x000000037f7698 @tempfile=#<Tempfile:/home/ubuntu/workspace/RackMultipart20150613-11527-kquxpu.jpg>, @original_filename="food4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"restaurant[avatar]\"; filename=\"food4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+Command :: file -b --mime '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-1tlu5cl.jpg'
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'rinconcito@hotmail.com' LIMIT 1[0m
+Command :: file -b --mime '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-11crdbk.jpg'
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered restaurants/shared/_links.html.erb (0.6ms)
+  Rendered registrations_restaurant/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 260ms (Views: 69.4ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to AddAttachmentAvatarToRestaurants (20150613062725)
+  [1m[36m (54.1ms)[0m  [1mALTER TABLE `restaurants` DROP `avatar_file_name`[0m
+  [1m[35m (68.6ms)[0m  ALTER TABLE `restaurants` DROP `avatar_content_type`
+  [1m[36m (39.3ms)[0m  [1mALTER TABLE `restaurants` DROP `avatar_file_size`[0m
+  [1m[35m (51.4ms)[0m  ALTER TABLE `restaurants` DROP `avatar_updated_at`
+  [1m[36mSQL (3.6ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150613062725'[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `orders`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `restaurants`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to InsertarRestaurantes (20150613051745)
+  [1m[36mSQL (5.7ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150613051745'[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `orders`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `restaurants`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddAttachmentAvatarToRestaurants (20150613062725)
+  [1m[35m (92.1ms)[0m  ALTER TABLE `restaurants` ADD `avatar_file_name` varchar(255)
+  [1m[36m (93.7ms)[0m  [1mALTER TABLE `restaurants` ADD `avatar_content_type` varchar(255)[0m
+  [1m[35m (70.3ms)[0m  ALTER TABLE `restaurants` ADD `avatar_file_size` int(11)
+  [1m[36m (74.3ms)[0m  [1mALTER TABLE `restaurants` ADD `avatar_updated_at` datetime[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150613062725')[0m
+  [1m[35m (6.4ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `client_addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+
+  [1m[36m (0.3ms)[0m  [1mSHOW CREATE TABLE `clients`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `dishes`[0m
+  [1m[35m (0.6ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `districts`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menu_details`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menus`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `order_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `orders`[0m
+  [1m[35m (0.4ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `restaurants`[0m
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-13 06:53:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sIsKfrhv37q7n0GRXp+YhC1pobJPekpC2af6+nfyJyuSm4gWa2mLEOBuKyySOhfLTrzGqLy+IzKGUjyTUjlahw==", "restaurant"=>{"email"=>"rinconcito@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Rinconcito", "telefono"=>"433432244", "direccion"=>"Av. Las Artes 123", "district_id"=>"3", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f3db4cf7d28 @tempfile=#<Tempfile:/home/ubuntu/workspace/RackMultipart20150613-11527-1cjf0m0.jpg>, @original_filename="food4.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"restaurant[avatar]\"; filename=\"food4.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Sign up"}
+Command :: file -b --mime '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-nit5qy.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv0.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv0.jpg[0]'
+Command :: convert '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv0.jpg[0]' -auto-orient -resize "300x300>" '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv020150613-11527-1flxmat'
+Command :: file -b --mime '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv020150613-11527-1flxmat'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv0.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv0.jpg[0]'
+Command :: convert '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv0.jpg[0]' -auto-orient -resize "100x100>" '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv020150613-11527-8txeqn'
+Command :: file -b --mime '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-17v8yv020150613-11527-8txeqn'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.4ms)[0m  SELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'rinconcito@hotmail.com' LIMIT 1
+Command :: file -b --mime '/home/ubuntu/workspace/a191c503edb2e2eae225cce969c5505a20150613-11527-1hlr1sf.jpg'
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `restaurants` (`name`, `district_id`, `telefono`, `direccion`, `email`, `encrypted_password`, `avatar_file_name`, `avatar_content_type`, `avatar_file_size`, `avatar_updated_at`, `created_at`, `updated_at`) VALUES ('Rinconcito', 3, '433432244', 'Av. Las Artes 123', 'rinconcito@hotmail.com', '$2a$10$TJh5IBodkx/ceU5f7DCTN.UMxHlXf2HHFVZ391oPjo1eMoaDE.Vwu', 'food4.jpg', 'image/jpeg', 73999, '2015-06-13 06:53:11', '2015-06-13 06:53:12', '2015-06-13 06:53:12')[0m
+  [1m[35m (9.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE `restaurants` SET `last_sign_in_at` = '2015-06-13 06:53:12', `current_sign_in_at` = '2015-06-13 06:53:12', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-13 06:53:12' WHERE `restaurants`.`id` = 11
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 816ms (ActiveRecord: 19.2ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 06:53:12 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.5ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/_busqueda.html.erb (20.8ms)
+  Rendered home/_ingresocliente.html.erb (12.9ms)
+  Rendered home/index.html.erb within layouts/application (66.5ms)
+Completed 200 OK in 162ms (Views: 157.8ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-13 06:56:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mHn9f8hEGD2NZXyCxQpw1zktIlJQ2hTYSDfIaJyRyyG6aX8XG0JMl9aUFj8Jr/+YWvhFSKMefagXwg4BuVq2jQ=="}
+  [1m[36mRestaurant Load (2.5ms)[0m  [1mSELECT  `restaurants`.* FROM `restaurants` WHERE `restaurants`.`id` = 11  ORDER BY `restaurants`.`id` ASC LIMIT 1[0m
+  [1m[35mClient Load (0.4ms)[0m  SELECT  `clients`.* FROM `clients` WHERE `clients`.`id` = 3  ORDER BY `clients`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 42ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 06:56:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/_busqueda.html.erb (3.3ms)
+  Rendered home/_ingresocliente.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/locales" for 201.230.92.121 at 2015-06-13 06:57:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#locales as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/_busqueda.html.erb (2.3ms)
+  Rendered home/_ingresocliente.html.erb (1.8ms)
+  [1m[36mRestaurant Load (0.6ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered home/locales.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 85ms (Views: 82.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/images/original/missing.png" for 201.230.92.121 at 2015-06-13 06:57:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.9ms)
+
+
+Started GET "/home/img/rest1.jpg" for 201.230.92.121 at 2015-06-13 06:57:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/home/img/rest1.jpg"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.6ms)
+
+
+Started GET "/home/locales" for 201.230.92.121 at 2015-06-13 07:00:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#locales as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/_busqueda.html.erb (2.2ms)
+  Rendered home/_ingresocliente.html.erb (2.5ms)
+  [1m[36mRestaurant Load (0.4ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered home/locales.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 92ms (Views: 89.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/original/missing.png" for 201.230.92.121 at 2015-06-13 07:00:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.7ms)
+
+
+Started GET "/home/locales" for 201.230.92.121 at 2015-06-13 07:09:21 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#locales as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/_busqueda.html.erb (2.1ms)
+  Rendered home/_ingresocliente.html.erb (2.2ms)
+  [1m[36mRestaurant Load (0.5ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered home/locales.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 89ms (Views: 86.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/images/original/missing.png" for 201.230.92.121 at 2015-06-13 07:09:25 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.3ms)
+
+
+Started GET "/restaurants/sign_in" for 201.230.92.121 at 2015-06-13 07:22:20 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/ubuntu/workspace/app/controllers/application_controller.rb:6: syntax error, unexpected tSYMBEG, expecting ')'
+  def after_sign_in_path_for(:restaurant)
+                              ^
+/home/ubuntu/workspace/app/controllers/application_controller.rb:9: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/application_controller.rb:6: syntax error, unexpected tSYMBEG, expecting ')'
+  app/controllers/application_controller.rb:9: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.3ms)
+
+
+Started GET "/restaurants/sign_in" for 201.230.92.121 at 2015-06-13 07:22:53 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.3ms)
+  Rendered restaurants/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 130ms (Views: 104.1ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/restaurants/sign_in" for 201.230.92.121 at 2015-06-13 07:23:20 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5gf7q2qlpIQY9pMQpmnRbywDfq4GvIysVNXiJIRdt5rzyWozzVPMcq65E7rHYsvpsulzOp2r283rort96d6M9g==", "restaurant"=>{"email"=>"rinconcito@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mRestaurant Load (0.4ms)[0m  SELECT  `restaurants`.* FROM `restaurants` WHERE `restaurants`.`email` = 'rinconcito@hotmail.com'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `restaurants` SET `current_sign_in_at` = '2015-06-13 07:23:20', `sign_in_count` = 2, `updated_at` = '2015-06-13 07:23:20' WHERE `restaurants`.`id` = 11
+  [1m[36m (5.4ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.iohome/locales
+Completed 302 Found in 102ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/restaurants/sign_in" for 201.230.92.121 at 2015-06-13 07:23:37 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mRestaurant Load (0.4ms)[0m  SELECT  `restaurants`.* FROM `restaurants` WHERE `restaurants`.`id` = 11  ORDER BY `restaurants`.`id` ASC LIMIT 1
+Redirected to https://grupo-maxrgy.c9.iohome/locales
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:23:52 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/_busqueda.html.erb (9.9ms)
+  Rendered home/_ingresocliente.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 87ms (Views: 84.4ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-13 07:24:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pzUislEAy4JVD0Zgas/8KwUZn/rIcvvjLN/IJZm6b/SFcfBmq5C/riF1gw67NIFXLyzjjODOnhxYoKFu53vzBQ=="}
+  [1m[35mRestaurant Load (0.4ms)[0m  SELECT  `restaurants`.* FROM `restaurants` WHERE `restaurants`.`id` = 11  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 32ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:24:03 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/_busqueda.html.erb (11.7ms)
+  Rendered home/_ingresocliente.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 163ms (Views: 160.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/restaurants/sign_in" for 201.230.92.121 at 2015-06-13 07:24:12 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.4ms)
+  Rendered restaurants/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 72ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/restaurants/sign_in" for 201.230.92.121 at 2015-06-13 07:24:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uSfdZEibgkwkvzvkmAhWxKoT9TMKlxRPiphpQXfoIfXjvwsMfz985vhBAQFm9wYz0JHgP3wdQudRDEPMkczg3w==", "restaurant"=>{"email"=>"rinconcito@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mRestaurant Load (0.5ms)[0m  SELECT  `restaurants`.* FROM `restaurants` WHERE `restaurants`.`email` = 'rinconcito@hotmail.com'  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  UPDATE `restaurants` SET `last_sign_in_at` = '2015-06-13 07:23:20', `current_sign_in_at` = '2015-06-13 07:24:28', `sign_in_count` = 3, `updated_at` = '2015-06-13 07:24:28' WHERE `restaurants`.`id` = 11
+  [1m[36m (5.4ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/home/locales
+Completed 302 Found in 96ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/home/locales" for 201.230.92.121 at 2015-06-13 07:24:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#locales as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/_busqueda.html.erb (3.0ms)
+  Rendered home/_ingresocliente.html.erb (3.0ms)
+  [1m[36mRestaurant Load (0.6ms)[0m  [1mSELECT `restaurants`.* FROM `restaurants`[0m
+  Rendered home/locales.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 90ms (Views: 87.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images/original/missing.png" for 201.230.92.121 at 2015-06-13 07:24:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (12.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.8ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-13 07:27:36 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"V+VCzg2A6065j8WqFiaQJICPOVNhDFkHrKAVkw3abkArlZ0eV+DEC44nQBAsvGLBGwzPRWl+lIMu/XSA6zoDDg=="}
+  [1m[35mRestaurant Load (0.3ms)[0m  SELECT  `restaurants`.* FROM `restaurants` WHERE `restaurants`.`id` = 11  ORDER BY `restaurants`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 27ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 07:27:36 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/_busqueda.html.erb (10.6ms)
+  Rendered home/_ingresocliente.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 98ms (Views: 94.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-13 07:27:45 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered clients/shared/_links.html.erb (1.4ms)
+  Rendered clients/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 89ms (Views: 72.5ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/clients/sign_in" for 201.230.92.121 at 2015-06-13 07:28:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AT8F0vhf6RgV+tIha/Wcz6pVuZb66I3tQEnE7uOvmtdCqhLRZy4Y4v9dmTm9Hk+PUJtMRqYizi43UFwHLnPyg==", "client"=>{"email"=>"max@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mClient Load (0.5ms)[0m  SELECT  `clients`.* FROM `clients` WHERE `clients`.`email` = 'max@hotmail.com'  ORDER BY `clients`.`id` ASC LIMIT 1
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.5ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AT8F0vhf6RgV+tIha/Wcz6pVuZb66I3tQEnE7uOvmtdCqhLRZy4Y4v9dmTm9Hk+PUJtMRqYizi43UFwHLnPyg==", "client"=>{"email"=>"max@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered clients/shared/_links.html.erb (0.5ms)
+  Rendered clients/sessions/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 226ms (Views: 154.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients/sign_in" for 201.230.92.121 at 2015-06-13 07:28:37 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mUJGXGVvMPD2QxyTYkE8TntHjvLBzMhlGrMex40yPA8QTBIAaxL3Nx3pgb8BGpMDeKy1JYC/4WoXb3ikKgVNrg==", "client"=>{"email"=>"ricardo@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mClient Load (0.4ms)[0m  [1mSELECT  `clients`.* FROM `clients` WHERE `clients`.`email` = 'ricardo@hotmail.com'  ORDER BY `clients`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `clients` SET `current_sign_in_at` = '2015-06-13 07:28:37', `sign_in_count` = 2, `updated_at` = '2015-06-13 07:28:37' WHERE `clients`.`id` = 3[0m
+  [1m[35m (6.9ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/home/acercade
+Completed 302 Found in 95ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/home/acercade" for 201.230.92.121 at 2015-06-13 07:28:37 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#acercade as HTML
+  Rendered home/acercade.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateAdministrators (20150613073002)
+  [1m[35m (29.9ms)[0m  CREATE TABLE `administrators` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (39.3ms)[0m  [1mCREATE UNIQUE INDEX `index_administrators_on_email`  ON `administrators` (`email`) [0m
+  [1m[35m (18.4ms)[0m  CREATE UNIQUE INDEX `index_administrators_on_reset_password_token`  ON `administrators` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150613073002')
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'administrators'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `administrators`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `orders`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `restaurants`
+
+
+Started GET "/administrators/sign_up" for 201.230.92.121 at 2015-06-13 07:31:35 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 201ms (Views: 118.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/administrators" for 201.230.92.121 at 2015-06-13 07:32:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"57Q8A7OVR1XQ9ylZAXVkyE5e4UYk9AYbnRFWh3uJIafoU/awmOCtJ58kJgsJmtaeDEqqtFSiOEbgoMs8CBIfng==", "administrator"=>{"email"=>"administrador@menuexpress.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mAdministrator Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `administrators` WHERE `administrators`.`email` = BINARY 'administrador@menuexpress.com' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO `administrators` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('administrador@menuexpress.com', '$2a$10$GaA0xBellwFqycagAYrCxePP1r5LpGvK9uk8nhu3gxw195f3H85Pe', '2015-06-13 07:32:08', '2015-06-13 07:32:08')
+  [1m[36m (11.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `administrators` SET `last_sign_in_at` = '2015-06-13 07:32:08', `current_sign_in_at` = '2015-06-13 07:32:08', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-13 07:32:08' WHERE `administrators`.`id` = 1[0m
+  [1m[35m (5.6ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/home/servicio
+Completed 302 Found in 115ms (ActiveRecord: 20.6ms)
+
+
+Started GET "/home/servicio" for 201.230.92.121 at 2015-06-13 07:32:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#servicio as HTML
+  Rendered home/servicio.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.0ms)
