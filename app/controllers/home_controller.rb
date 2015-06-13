@@ -10,4 +10,8 @@ class HomeController < ApplicationController
 
   def contacto
   end
+  
+  def locales
+    @restaurants = Restaurant.all
+  end
 end

@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="main">
+        <div class="col1">
+            <%= render 'home/busqueda' %>
+
+            <%= render 'home/ingresocliente' %>
+ 
+        </div>
+        <div class="col2">
+            <h1>Restaurantes encontrados</h1>    
+            <% @restaurants.each do |local| %>
+                <tr>
+                    <h2><a href="local.html"><%= local.name %></a></h2>
+                    <p>Dirección: <%= local.direccion %></p> 
+                    <p>Teléfono: <%= local.telefono %></p>
+                    <p>Correo electrónico: <%= local.email %></p>
+                    <p>   </p>
+                    <p>   </p>
+                </tr>
+            <% end %>
+                <div class="contFood">
+                    <div class="contBloq">
+                        <div class="imgRest"><a href="local.html"><img src="img/rest1.jpg" alt="" width="100%"></a></div>
+                        <div class="detaRest">
+                            
+                            <p>Dirección</p>
+                            <p>Teléfono</p>
+                            <p>Correo electrónico</p>
+                            <a href="local.html" class="verMenu">Ver menú</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
