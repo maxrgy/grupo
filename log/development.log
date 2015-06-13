@@ -1,0 +1,2873 @@
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 13:49:21 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::NoDatabaseError (Unknown database 'proyecto_development'):
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (114.7ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 13:50:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::NoDatabaseError (Unknown database 'proyecto_development'):
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.4ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 13:50:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::NoDatabaseError (Unknown database 'proyecto_development'):
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 13:52:20 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::NoDatabaseError (Unknown database 'proyecto_development'):
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.1) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.1) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.8ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 13:53:12 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 1606ms (Views: 1591.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-ddfd5dbccae50b79c2c85aa4aa01a615c81ce5940224dc4c25e247411a8a45cc.css?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 201.230.92.121 at 2015-06-12 13:53:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 13:53:29 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (8.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (45.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateDistricts (20150606230828)
+  [1m[35m (10.8ms)[0m  CREATE TABLE `districts` (`id` int(11) auto_increment PRIMARY KEY, `district_id` varchar(255) NOT NULL, `no_distrito` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (14.2ms)[0m  [1mCREATE  INDEX `index_districts_on_district_id`  ON `districts` (`district_id`) [0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150606230828')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+Migrating to CreateDishes (20150606231032)
+  [1m[36m (8.6ms)[0m  [1mCREATE TABLE `dishes` (`id` int(11) auto_increment PRIMARY KEY, `dish_id` int(11) NOT NULL, `no_plato` varchar(255), `no_tipoplato` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (23.7ms)[0m  CREATE  INDEX `index_dishes_on_dish_id`  ON `dishes` (`dish_id`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150606231032')
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateAddresses (20150608224708)
+  [1m[35m (7.2ms)[0m  CREATE TABLE `addresses` (`id` int(11) auto_increment PRIMARY KEY, `address_id` int(11) NOT NULL, `no_direccion` varchar(255), `district_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.0ms)[0m  [1mCREATE  INDEX `index_addresses_on_address_id`  ON `addresses` (`address_id`) [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150608224708')[0m
+  [1m[35m (4.4ms)[0m  COMMIT
+Migrating to CreateMenus (20150608225146)
+  [1m[36m (7.1ms)[0m  [1mCREATE TABLE `menus` (`id` int(11) auto_increment PRIMARY KEY, `menu_id` int(11) NOT NULL, `fe_fecha` date, `qt_menu` int(11), `restaurant_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (15.2ms)[0m  CREATE  INDEX `index_menus_on_menu_id`  ON `menus` (`menu_id`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150608225146')
+  [1m[36m (3.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMenuDetails (20150608225810)
+  [1m[35m (6.8ms)[0m  CREATE TABLE `menu_details` (`id` int(11) auto_increment PRIMARY KEY, `menu_detail_id` int(11) NOT NULL, `co_local` int(11), `qt_precio` int(11), `menu_id` int(11) NOT NULL, `dish_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (14.3ms)[0m  [1mCREATE  INDEX `index_menu_details_on_menu_detail_id`  ON `menu_details` (`menu_detail_id`) [0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150608225810')[0m
+  [1m[35m (4.4ms)[0m  COMMIT
+Migrating to CreateOrders (20150608234445)
+  [1m[36m (6.7ms)[0m  [1mCREATE TABLE `orders` (`id` int(11) auto_increment PRIMARY KEY, `order_id` int(11) NOT NULL, `email` varchar(255), `qt_montototal` int(11), `estado` varchar(255), `restaurant_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (13.2ms)[0m  CREATE  INDEX `index_orders_on_order_id`  ON `orders` (`order_id`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150608234445')
+  [1m[36m (4.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateOrderDetails (20150608234727)
+  [1m[35m (7.6ms)[0m  CREATE TABLE `order_details` (`id` int(11) auto_increment PRIMARY KEY, `order_detail_id` int(11), `dish_id` int(11), `no_tipoplato` varchar(255), `qt_precio` int(11), `qt_cantidad` int(11), `order_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (18.4ms)[0m  [1mCREATE  INDEX `index_order_details_on_order_detail_id`  ON `order_details` (`order_detail_id`) [0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150608234727')[0m
+  [1m[35m (4.8ms)[0m  COMMIT
+Migrating to CreateClientAddresses (20150608234915)
+  [1m[36m (7.3ms)[0m  [1mCREATE TABLE `client_addresses` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) NOT NULL, `address_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (14.8ms)[0m  CREATE  INDEX `index_client_addresses_on_email`  ON `client_addresses` (`email`) 
+  [1m[36m (14.6ms)[0m  [1mCREATE  INDEX `index_client_addresses_on_address_id`  ON `client_addresses` (`address_id`) [0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150608234915')[0m
+  [1m[35m (4.6ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.5ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `client_addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `dishes`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `districts`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `menu_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menus`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `order_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `orders`[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `districts` (`district_id`, `no_distrito`, `created_at`, `updated_at`) VALUES ('1', 'Ate', '2015-06-12 14:13:55', '2015-06-12 14:13:55')
+  [1m[36m (5.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `districts` (`district_id`, `no_distrito`, `created_at`, `updated_at`) VALUES ('2', 'Breña', '2015-06-12 14:14:18', '2015-06-12 14:14:18')[0m
+  [1m[35m (9.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `districts` (`district_id`, `no_distrito`, `created_at`, `updated_at`) VALUES ('3', 'San Borja', '2015-06-12 14:14:34', '2015-06-12 14:14:34')
+  [1m[36m (7.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `districts` (`district_id`, `no_distrito`, `created_at`, `updated_at`) VALUES ('4', 'Surco', '2015-06-12 14:14:51', '2015-06-12 14:14:51')[0m
+  [1m[35m (5.9ms)[0m  COMMIT
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 14:17:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 603ms (Views: 589.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 14:19:04 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `destroy_client_session_path' for #<#<Class:0x00000004de1648>:0x007f36a9570418>):
+    12: 
+    13: <header>
+    14:     <nav class="menuPrin">
+    15:       <div class="conPerfil"><%= link_to "Cerrar sesión", destroy_client_session_path, method: :delete %></div>
+    16:       <ul>
+    17:         <li><a href="home/index">INICIO</a></li>
+    18:         <li><a href="home/acercade">ACERCA DE</a></li>
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__124396335493694707_69936372824720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (117.9ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 14:19:54 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 201.230.92.121 at 2015-06-12 14:19:54 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-12 14:19:55 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 14:21:35 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 136ms (Views: 131.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 201.230.92.121 at 2015-06-12 14:21:36 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 201.230.92.121 at 2015-06-12 14:21:36 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/sign_in" for 201.230.92.121 at 2015-06-12 14:47:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateClients (20150612144807)
+  [1m[35m (10.8ms)[0m  CREATE TABLE `clients` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `name` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (60.0ms)[0m  [1mCREATE UNIQUE INDEX `index_clients_on_email`  ON `clients` (`email`) [0m
+  [1m[35m (19.1ms)[0m  CREATE UNIQUE INDEX `index_clients_on_reset_password_token`  ON `clients` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150612144807')
+  [1m[36m (3.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `orders`
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 14:52:56 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 87ms (Views: 83.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/client/sign_up" for 201.230.92.121 at 2015-06-12 14:53:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sign_up"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.0ms)
+
+
+Started GET "/client/sign_in" for 201.230.92.121 at 2015-06-12 14:53:17 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sign_in"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.9ms)
+
+
+Started GET "/client/sign_in" for 201.230.92.121 at 2015-06-12 14:59:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sign_in"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (54.7ms)
+
+
+Started GET "/client/sign_in" for 201.230.92.121 at 2015-06-12 15:01:10 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sign_in"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.0ms)
+
+
+Started GET "/client/sign_up" for 201.230.92.121 at 2015-06-12 15:01:25 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sign_up"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.4ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:03:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (316.3ms)
+Completed 200 OK in 430ms (Views: 413.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/client/sign_in" for 201.230.92.121 at 2015-06-12 15:03:24 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sign_in"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.8ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:03:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 202ms (Views: 164.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:04:33 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 15:04:35 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8bJtQ5ssm6o7YZ+88VQE3N3A3qAO3wPZ/mpedm5MHEi9sLqynAZZ4An9401uTT/oX6QsXqaGD1/9I8QCpfEuPg==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 93ms (Views: 75.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:04:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:07:22 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 15:07:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r2fZ6nc0Qxu3cpoZxy7Yj/Z4GTjOzp0Iacnomd+sMS7jZQ4bcB6BUYXu5uhYN+O7dBzrxmaXkY5qgHLtFBEDWA==", "client"=>{"email"=>"maxrgy@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"MAX GONZALES", "phone"=>"972961010"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, phone
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mClient Exists (5.8ms)[0m  SELECT  1 AS one FROM `clients` WHERE `clients`.`email` = BINARY 'maxrgy@gmail.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `clients` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('maxrgy@gmail.com', '$2a$10$1T3Ndq/SqK6Wx9DtnU7IgODjsYPa6TarX1sCyD4RAp5i86.sUeOSS', '2015-06-12 15:07:50', '2015-06-12 15:07:50')[0m
+  [1m[35m (6.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE `clients` SET `last_sign_in_at` = '2015-06-12 15:07:50', `current_sign_in_at` = '2015-06-12 15:07:50', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 15:07:50' WHERE `clients`.`id` = 1
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 142ms (ActiveRecord: 21.7ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:07:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.6ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:09:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_up" for 201.230.92.121 at 2015-06-12 15:09:42 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/sign_up"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.4ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:09:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mClient Load (0.4ms)[0m  SELECT  `clients`.* FROM `clients` WHERE `clients`.`id` = 1  ORDER BY `clients`.`id` ASC LIMIT 1
+Redirected to https://grupo-maxrgy.c9.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:09:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:10:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.3ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 85ms (Views: 82.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 15:11:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AqxH9w8f+XEvPNn4q2M2ke4q1UjV/19n2S0dlU62XBBOrpAGCDU7Ox2gpQk0eg2lbE4ntn2mU+HaZIfhhQtuZg=="}
+  [1m[36mClient Load (0.5ms)[0m  [1mSELECT  `clients`.* FROM `clients` WHERE `clients`.`id` = 1  ORDER BY `clients`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 13ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:11:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:11:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 15:11:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FKzIixXLnQ5M6vWF16FvwE+/JHjo1KtHKSDnSsZEnHfWe/bKpFBP2ZlBOsitUSzNghGTiy/paHbwydHxHlp49w==", "client"=>{"email"=>"max@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"MAX GONZALES", "phone"=>"444444"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, phone
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mClient Exists (2.3ms)[0m  SELECT  1 AS one FROM `clients` WHERE `clients`.`email` = BINARY 'max@hotmail.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `clients` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('max@hotmail.com', '$2a$10$q8rQe4wfGqI27.rKogSY2uuoFK8vNnfNKKIUhEApkx/er1J5Wpjnq', '2015-06-12 15:11:31', '2015-06-12 15:11:31')[0m
+  [1m[35m (6.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `clients` SET `last_sign_in_at` = '2015-06-12 15:11:31', `current_sign_in_at` = '2015-06-12 15:11:31', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 15:11:31' WHERE `clients`.`id` = 2
+  [1m[36m (5.1ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 119ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:11:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 65ms (Views: 63.1ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to DeviseCreateClients (20150612144807)
+  [1m[36m (13.5ms)[0m  [1mDROP INDEX `index_clients_on_reset_password_token` ON `clients`[0m
+  [1m[35m (8.4ms)[0m  DROP INDEX `index_clients_on_email` ON `clients`
+  [1m[36m (5.4ms)[0m  [1mDROP TABLE `clients`[0m
+  [1m[35mSQL (5.5ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20150612144807'
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `client_addresses`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `dishes`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `districts`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menu_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `menus`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `order_details`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `orders`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateClients (20150612152202)
+  [1m[35m (20.5ms)[0m  CREATE TABLE `clients` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `name` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.8ms)[0m  [1mCREATE UNIQUE INDEX `index_clients_on_email`  ON `clients` (`email`) [0m
+  [1m[35m (18.7ms)[0m  CREATE UNIQUE INDEX `index_clients_on_reset_password_token`  ON `clients` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150612152202')
+  [1m[36m (4.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `orders`
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 15:30:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:30:16 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT  `clients`.* FROM `clients` WHERE `clients`.`id` = 2  ORDER BY `clients`.`id` ASC LIMIT 1[0m
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 98ms (Views: 73.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:33:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:52:03 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:52:07 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:53:06 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 74ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:53:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xNkBzzqov1UhLdFTdn6Oc6ZC/eMuEkPnKbl7kCiEzUEGDj+OizNtgvSGHh4Mjs1+a+xKEOkvgNbwUE0r8JopwQ==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xNkBzzqov1UhLdFTdn6Oc6ZC/eMuEkPnKbl7kCiEzUEGDj+OizNtgvSGHh4Mjs1+a+xKEOkvgNbwUE0r8JopwQ==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 82ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:53:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"amhIo8bJGRUj6QRDiorX1ASFAdSHKDigURGD1SEJZQiov3bid1LLwvZCyw7wepTZySu2J0AV+5GI+LVu+ReBiA==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"amhIo8bJGRUj6QRDiorX1ASFAdSHKDigURGD1SEJZQiov3bid1LLwvZCyw7wepTZySu2J0AV+5GI+LVu+ReBiA==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:53:11 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DLw1eaEruWCsnpWaunpq4QTTN5s9Mefl0Smy906FH8nOaws4ELBrt3k1WtfAiinsyX2AaPoMJNQIwIRMlpv7SQ==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DLw1eaEruWCsnpWaunpq4QTTN5s9Mefl0Smy906FH8nOaws4ELBrt3k1WtfAiinsyX2AaPoMJNQIwIRMlpv7SQ==", "client"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 76ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:53:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered clients/shared/_links.html.erb (1.5ms)
+  Rendered clients/sessions/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 65ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_in" for 201.230.92.121 at 2015-06-12 15:54:40 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered clients/shared/_links.html.erb (0.4ms)
+  Rendered clients/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:55:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered clients/registrations/new.html.erb within layouts/application (52.1ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `name_field' for #<ActionView::Helpers::FormBuilder:0x007f6f00929200>):
+    23:   
+    24:   <div class="field">
+    25:     <%= f.label :'Nombre' %><br />
+    26:     <%= f.name_field :name %>
+    27:   </div>
+    28:   
+    29:   <div class="field">
+  app/views/clients/registrations/new.html.erb:26:in `block in _app_views_clients_registrations_new_html_erb__3263606418907450141_70057364103040'
+  app/views/clients/registrations/new.html.erb:3:in `_app_views_clients_registrations_new_html_erb__3263606418907450141_70057364103040'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.6ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 15:56:24 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered clients/shared/_links.html.erb (0.2ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 16:01:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ArgumentError (Invalid route name, already in use: 'new_client_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.7ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 16:01:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered clients/shared/_links.html.erb (0.3ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 239ms (Views: 223.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-12 16:01:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 201.230.92.121 at 2015-06-12 16:01:59 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 16:02:23 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wSTA/oKdW7b30nlVCrMSs8J5beeVc0w0UpautnQ/NzgD8/6/MwaJYSJ5thhwQ1G+D9faFFJOjwWLf5gNrCHTuA==", "client"=>{"email"=>"chris@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Christopher Flores", "phone"=>"6565666"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mClient Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `clients` WHERE `clients`.`email` = BINARY 'chris@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `clients` (`name`, `phone`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('Christopher Flores', '6565666', 'chris@hotmail.com', '$2a$10$WRhtuZ.LuuHoqCi2pzSgLeBY5yVtHXylF0BrOQmSBQ9znts9aC7ku', '2015-06-12 16:02:23', '2015-06-12 16:02:23')
+  [1m[36m (6.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `clients` SET `last_sign_in_at` = '2015-06-12 16:02:23', `current_sign_in_at` = '2015-06-12 16:02:23', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:02:23' WHERE `clients`.`id` = 1[0m
+  [1m[35m (4.1ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 106ms (ActiveRecord: 11.6ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:02:24 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 86ms (Views: 82.4ms | ActiveRecord: 2.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateRestaurants (20150612160458)
+  [1m[35m (15.7ms)[0m  CREATE TABLE `restaurants` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `name` varchar(255), `district_id` int(11), `password` varchar(255), `telefono` varchar(255), `direccion` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (25.3ms)[0m  [1mCREATE UNIQUE INDEX `index_restaurants_on_email`  ON `restaurants` (`email`) [0m
+  [1m[35m (22.2ms)[0m  CREATE UNIQUE INDEX `index_restaurants_on_reset_password_token`  ON `restaurants` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150612160458')
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.7ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `addresses`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'client_addresses'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `client_addresses`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'clients'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `clients`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'dishes'
+[0m
+  [1m[35m (0.4ms)[0m  SHOW CREATE TABLE `dishes`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'districts'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `districts`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menu_details'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menu_details`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'menus'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `menus`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'order_details'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `order_details`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'orders'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `orders`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'grupo'
+  AND fk.table_name = 'restaurants'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `restaurants`
+
+
+Started GET "/restaurants/sign_in" for 201.230.92.121 at 2015-06-12 16:11:41 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Processing by Devise::SessionsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (1.3ms)
+  Rendered restaurants/sessions/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 100ms (Views: 70.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 16:20:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.6ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 129ms (Views: 103.5ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:21:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eGyUnxUB78rSWQFzcM1DOGHfMcvdBHZlTMrmZtQfpWG6u6repJo9HQfyzj4KPQA1rHGGOBo5tVSVI9DdDAFB4Q==", "restaurant"=>{"email"=>"local1@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: client):
+  app/controllers/registrations_controller.rb:7:in `sign_up_params'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.8ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:24:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eGyUnxUB78rSWQFzcM1DOGHfMcvdBHZlTMrmZtQfpWG6u6repJo9HQfyzj4KPQA1rHGGOBo5tVSVI9DdDAFB4Q==", "restaurant"=>{"email"=>"local1@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.5ms)[0m  SELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local1@hotmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered restaurants/shared/_links.html.erb (0.4ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 215ms (Views: 168.4ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:24:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Is/2TbNW6h3YANh4/Rn0Z09WeOdwYrQzBuPionhASKrgGMgMAs04yg2rFzWH6bdqgvjPFLdfdwLfCtQZoF6sKg==", "restaurant"=>{"email"=>"local1@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local1@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local1@hotmail.com', '$2a$10$ZNiyVBjuJlLyxrnJAn.Gb.dRWTyjY06gOsA2jNthp0NCwewoQzTuS', '2015-06-12 16:24:43', '2015-06-12 16:24:43')
+  [1m[36m (25.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 16:24:43', `current_sign_in_at` = '2015-06-12 16:24:43', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:24:43' WHERE `restaurants`.`id` = 1[0m
+  [1m[35m (76.9ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 219ms (ActiveRecord: 103.9ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:24:44 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (1.1ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 114ms (Views: 110.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/home/index" for 201.230.92.121 at 2015-06-12 16:26:17 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 132ms (Views: 128.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/home/index" for 201.230.92.121 at 2015-06-12 16:27:24 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 85ms (Views: 82.9ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 16:27:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3k86Pn8Jjd0LJvYEIEG+pcnQrZB9cBaTfqHCIltUl5YcmAR/zpJfCt6NOUlasf2oBH4aY7pN1aKnSPSZg0pzFg=="}
+  [1m[35mClient Load (0.4ms)[0m  SELECT  `clients`.* FROM `clients` WHERE `clients`.`id` = 1  ORDER BY `clients`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 23ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:27:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 16:27:36 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.4ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 82ms (Views: 63.6ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:28:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RDhpO4ZKLohf/lLUO59ULs+eE6cu6AWfBp3jXnx4qYYsdq3ANKG0GstHPvcMqXAAMXoRRbcPXwsv25xyn+HGRA==", "restaurant"=>{"email"=>"local2@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"La Posadita", "telefono"=>"44444", "direccion"=>"Av. Las Artes 123", "district_id"=>"3"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local2@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local2@hotmail.com', '$2a$10$sKyAUCCSCE9SfoSD4nShxun8PSUnXs/.mqnpq9gt7zGY3rYY0fd1q', '2015-06-12 16:28:26', '2015-06-12 16:28:26')
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 16:28:26', `current_sign_in_at` = '2015-06-12 16:28:26', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:28:26' WHERE `restaurants`.`id` = 2[0m
+  [1m[35m (5.7ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 110ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:28:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.8ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 16:29:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DbkpCMZl2ZtK4tyNp4jJQKH6ikSpnNqYe3WUg8FDZg1l9+3zdI5DCd5bsK6Qvu1uXx6IpjB7gAxSM+uvItoJzw=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:29:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.5ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 16:30:12 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered clients/shared/_links.html.erb (0.4ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 16:30:44 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yZfV0AEnUeHUlH/eAQdEn5ljIJO+1U0vXxQTYZB1pDHygjFEMb8Z1AU97IIYwhcQyMtqRdoHwWCpenBggKZ9jA==", "client"=>{"email"=>"jack@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"La Gema Jack", "phone"=>"545443"}, "commit"=>"Sign up"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: restaurant):
+  app/controllers/registrations_controller.rb:6:in `sign_up_params'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.6ms)
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 16:31:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yZfV0AEnUeHUlH/eAQdEn5ljIJO+1U0vXxQTYZB1pDHygjFEMb8Z1AU97IIYwhcQyMtqRdoHwWCpenBggKZ9jA==", "client"=>{"email"=>"jack@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"La Gema Jack", "phone"=>"545443"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mClient Exists (0.4ms)[0m  SELECT  1 AS one FROM `clients` WHERE `clients`.`email` = BINARY 'jack@hotmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered clients/shared/_links.html.erb (0.3ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 181ms (Views: 83.7ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-12 16:31:45 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A+H+gqfv/NXt//xsmljuw+fP/gNyThF8TZ0U7acL9P449BoWl3e04DxWbzCDnb1Mtme01RacnTO783fst9gtQw==", "client"=>{"email"=>"jack@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"La Gema Jack", "phone"=>"545443"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mClient Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `clients` WHERE `clients`.`email` = BINARY 'jack@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `clients` (`name`, `phone`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('La Gema Jack', '545443', 'jack@hotmail.com', '$2a$10$xr2eySIhARpvoaIZGM9z8u66IMVfKReqkbB.f64lgTPizY4kLzPd2', '2015-06-12 16:31:46', '2015-06-12 16:31:46')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `clients` SET `last_sign_in_at` = '2015-06-12 16:31:46', `current_sign_in_at` = '2015-06-12 16:31:46', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:31:46' WHERE `clients`.`id` = 2[0m
+  [1m[35m (6.5ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 108ms (ActiveRecord: 17.1ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:31:46 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 88ms (Views: 84.9ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 16:37:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ArgumentError ('registrationsRest' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.2ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 16:42:47 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ArgumentError ('registrations_Restaurant' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.3ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 16:43:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.3ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 323ms (Views: 304.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/registrations_restaurant.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 201.230.92.121 at 2015-06-12 16:43:16 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations_restaurant.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.230.92.121 at 2015-06-12 16:43:16 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:44:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jtrod8Mryhsq5qRaFxp0GWPHkxWG/ve0Abq5hBuHzUe1zwzj87OCLvtPNwYO3yeWMm/Zw+Ise/v31NqFC1QU+g==", "restaurant"=>{"email"=>"local3@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Muerte Lenta", "telefono"=>"123453", "direccion"=>"Av. Mexico 1234", "district_id"=>"2"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local3@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local3@hotmail.com', '$2a$10$HDclfHEDXwoM3QiAouezgeE0figNBLIwiRibdkl/Zvfpv38Jv5LBS', '2015-06-12 16:44:01', '2015-06-12 16:44:01')
+  [1m[36m (5.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 16:44:01', `current_sign_in_at` = '2015-06-12 16:44:01', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:44:02' WHERE `restaurants`.`id` = 3[0m
+  [1m[35m (3.1ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 103ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:44:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 80ms (Views: 77.8ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 16:44:53 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zFNcgfRI1Zar1rn+eV5T9l3HtzSSHJ5FmcAUY1vco+L3RrgVxNCdo3p/KqJgmwB5DG/94vbOEgpvrndiSw96Xw=="}
+  [1m[35mClient Load (0.3ms)[0m  SELECT  `clients`.* FROM `clients` WHERE `clients`.`id` = 2  ORDER BY `clients`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 21ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:44:53 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 147ms (Views: 143.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 16:45:02 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.3ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 96ms (Views: 74.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:45:57 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ht1NnWyfKo81Stz4b4y+an+0ZWzYlyw2TDYvKLlls4OkDwWzp0hrMA2ZeN6IINzB7628nr6b5t0XbOHAyTlsRQ==", "restaurant"=>{"email"=>"local4@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"5454433", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local4@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local4@hotmail.com', '$2a$10$8/o9wcC2iZLE1A27y3xrN.c8khY7npt8LkGXxmRERmdvoJJ2dqJKG', '2015-06-12 16:45:57', '2015-06-12 16:45:57')
+  [1m[36m (4.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 16:45:57', `current_sign_in_at` = '2015-06-12 16:45:57', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:45:57' WHERE `restaurants`.`id` = 4[0m
+  [1m[35m (3.3ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 103ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:45:57 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 80ms (Views: 78.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 16:46:31 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VcIw5tECprwGXUTLzhCTG6AU0Sl9a8kkYjegO1bURwJ3EHjIGtXnAz6O4O0pvPGwMA0I2xtnA885bW7TJoiYxA=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:46:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 96ms (Views: 94.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 16:46:39 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.3ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 16:47:18 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s1/s8icVTWI943qXJk3/RgbswKGM0TQY0B3DoTcnSjasM0Ww4M2PkTlk3LvPSbK+72TZuCOxY4AhYNh9ZLYJvg==", "restaurant"=>{"email"=>"local5@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"La Posadita", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.4ms)[0m  SELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local5@hotmail.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local5@hotmail.com', '$2a$10$gO6GGCSvpeJFxjJURkTlh.e.GALdIZxrllylh4CqF.CKplFycQ7zq', '2015-06-12 16:47:18', '2015-06-12 16:47:18')[0m
+  [1m[35m (5.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 16:47:18', `current_sign_in_at` = '2015-06-12 16:47:18', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 16:47:18' WHERE `restaurants`.`id` = 5
+  [1m[36m (5.0ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 100ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 16:47:18 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 66.102.8.172 at 2015-06-12 17:06:00 +0000
+Cannot render console from 66.102.8.172! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.5ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 171ms (Views: 168.1ms | ActiveRecord: 2.4ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 17:14:36 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pciCmVxtVXSJE55THYAgRZCA9olozkR/w950VTfiQPu6pCvbm7WXh42UOH/0hG29eQjvkMeuE+cyo2+JZHMDcw=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:14:37 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.3ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 96ms (Views: 92.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:14:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'new' could not be found for RegistrationsRestaurantController):
+  actionpack (4.2.1) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:15:13 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ArgumentError ('registrationsRestaurant' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.6ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:15:25 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (uninitialized constant RegistrationsrestaurantController):
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (147.0ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:16:01 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.4ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 136ms (Views: 108.9ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 17:16:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aHrVDq+V9sKZT+2gLK78mTT7meRIXT/yRtRCf18j3Y9BP/ugSa0lb1l6EWUEVXNvJ1at42gAO6pR/+6e0H8rSQ==", "restaurant"=>{"email"=>"local6@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.4ms)[0m  SELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local6@hotmail.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local6@hotmail.com', '$2a$10$CpbBVLj4uRI7ZvWUUEoR7O.RkIIOogd8So7OjUVhoXNPye2u/wHeS', '2015-06-12 17:16:32', '2015-06-12 17:16:32')[0m
+  [1m[35m (6.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 17:16:32', `current_sign_in_at` = '2015-06-12 17:16:32', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 17:16:32' WHERE `restaurants`.`id` = 6
+  [1m[36m (3.7ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 107ms (ActiveRecord: 12.1ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:16:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 113ms (Views: 109.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:17:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+RuntimeError (Could not find a valid mapping for {"id"=>6, "email"=>"local6@hotmail.com", "name"=>nil, "district_id"=>nil, "password"=>"12345678", "telefono"=>nil, "direccion"=>nil, "created_at"=>"2015-06-12T17:16:32.433Z", "updated_at"=>"2015-06-12T17:16:32.444Z"}):
+  devise (3.5.1) lib/devise/mapping.rb:44:in `find_scope!'
+  devise (3.5.1) lib/devise/controllers/store_location.rb:53:in `stored_location_key_for'
+  devise (3.5.1) lib/devise/controllers/store_location.rb:17:in `stored_location_for'
+  devise (3.5.1) lib/devise/controllers/helpers.rb:212:in `after_sign_in_path_for'
+  devise (3.5.1) app/controllers/devise_controller.rb:110:in `require_no_authentication'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:145:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:145:in `block in halting_and_conditional'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.6ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 17:18:04 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"o7AS4j1GvkO3rIdD7QaaJQR6NALjKnX1E6GnVDhx6vyK9TxM235t7neZe4bF/RXTF9cABcN3ca0Eigu1ty0cOg=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:18:04 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 133ms (Views: 128.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:18:08 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.2ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 163ms (Views: 141.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-12 17:18:09 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 17:18:45 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i12qtIX7UWZujoREt9bYkdlPr0hG5C4S3CI1TBKNx/RbSXjYYoQD5ZMUzIeaMW1S0UmX5p1i5jYAXTSE4BIpWw==", "restaurant"=>{"email"=>"local9@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local9@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local9@hotmail.com', '$2a$10$/ac55onr.CDi56U81c22S.7hwlfQAw3PZk90NY8Bj3vcOkx/QdRE2', '2015-06-12 17:18:45', '2015-06-12 17:18:45')
+  [1m[36m (5.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 17:18:45', `current_sign_in_at` = '2015-06-12 17:18:45', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 17:18:45' WHERE `restaurants`.`id` = 7[0m
+  [1m[35m (5.9ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 105ms (ActiveRecord: 13.1ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:18:46 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 85ms (Views: 83.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 17:22:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/sHf5EJcOiQbuxhH4xGyMG0AHueyqzHL+4hWmwBXl34u1Q2IpSNop+YhUITO9gfzZQYmSWkt+e8n91dT8sh50Q=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:22:27 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.5ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 121ms (Views: 117.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:22:34 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'new' could not be found for RegistrationsRestaurantController):
+  actionpack (4.2.1) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:24:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 206ms (Views: 115.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-12 17:24:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-12 17:28:10 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered clients/shared/_links.html.erb (0.3ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 173ms (Views: 143.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:32:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 94ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:36:32 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.2ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 102ms (Views: 82.5ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 17:37:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pMCvIMwwdvdVe64tZOvBui3nDSsSu1M43w1tMKttg+bRJl10eKnC3Df0t46ZEfVBJi7FhAcU8r07C27Rb45AnQ==", "restaurant"=>{"email"=>"local@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.5ms)[0m  SELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local@hotmail.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local@hotmail.com', '$2a$10$nwG0/1v4bWsNl73Se5axgO9s/IwP6XvhDuyKcNQznAh3l8H5MwJju', '2015-06-12 17:37:43', '2015-06-12 17:37:43')[0m
+  [1m[35m (33.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 17:37:43', `current_sign_in_at` = '2015-06-12 17:37:43', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 17:37:43' WHERE `restaurants`.`id` = 8
+  [1m[36m (7.4ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 146ms (ActiveRecord: 43.1ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:37:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 114ms (Views: 110.5ms | ActiveRecord: 2.2ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 17:38:05 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1zJzzbZhsoKytIqBxuXrbOYANq2wK/2NOh/E2E0NK4qi1IGZAvgGqdA7kyI7H9+X7cn+AqWEXAjeGcc5ie7o8Q=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:38:05 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 83ms (Views: 81.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:39:42 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 198ms (Views: 168.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-12 17:39:43 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:39:50 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/registrations/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:40:58 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.3ms)
+  Rendered restaurants/registrations/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 91ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 17:41:37 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bKbXu8kW5/NWjzFjU6HF8SZQTOj0D8zoFMMnEzr1+PlRE/6knQKWCn2LmBiysbuhexUthwTc3SDso7EF6Gkw4A==", "restaurant"=>{"email"=>"local21@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Muerte Lenta", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+Unpermitted parameters: name, telefono, direccion, district_id
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mRestaurant Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'local21@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `restaurants` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('local21@hotmail.com', '$2a$10$NqpkVYMB2Q0t2o47o.UrZOZRljn.77Z0ejyRC7dsfBjXEcaig0.5W', '2015-06-12 17:41:37', '2015-06-12 17:41:37')
+  [1m[36m (7.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 17:41:37', `current_sign_in_at` = '2015-06-12 17:41:37', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 17:41:37' WHERE `restaurants`.`id` = 9[0m
+  [1m[35m (3.6ms)[0m  COMMIT
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 113ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:41:38 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.4ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 91ms (Views: 88.4ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 17:44:46 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yqbeEDiasUhgN2f0WV/qLO2JWc13P+Zl2VGuVSEN0jb3E/cPbI7AsUszzo+4T5R8sMw4oofs960hMThD85EaLw=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:44:47 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 92ms (Views: 89.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-12 17:44:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.6ms)
+  Rendered registrations_restaurant/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 112ms (Views: 80.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-12 17:44:51 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/restaurants" for 201.230.92.121 at 2015-06-12 17:45:25 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q3OdZ8KxKqDdi3D6CqjTm9mKp2buFEGvO915zYMvvoSiJTfScSBRoJZk1tedp38+GtDMaETJaHqMMxnjYU1rDA==", "restaurant"=>{"email"=>"pruebaenesima@local.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Restaurante Siete Sabores", "telefono"=>"3434333", "direccion"=>"Av. Primavera 1053", "district_id"=>"4"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mRestaurant Exists (0.4ms)[0m  SELECT  1 AS one FROM `restaurants` WHERE `restaurants`.`email` = BINARY 'pruebaenesima@local.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `restaurants` (`name`, `district_id`, `telefono`, `direccion`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('Restaurante Siete Sabores', 4, '3434333', 'Av. Primavera 1053', 'pruebaenesima@local.com', '$2a$10$amG0hvc4zNSz0LO6RgKSm.RUB6V/78LMqfub5Yicm89bNIryIMJPC', '2015-06-12 17:45:25', '2015-06-12 17:45:25')[0m
+  [1m[35m (6.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE `restaurants` SET `last_sign_in_at` = '2015-06-12 17:45:25', `current_sign_in_at` = '2015-06-12 17:45:25', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-12 17:45:25' WHERE `restaurants`.`id` = 10
+  [1m[36m (5.9ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 116ms (ActiveRecord: 14.2ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:45:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 99ms (Views: 97.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/clients/sign_out" for 201.230.92.121 at 2015-06-12 17:56:14 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oTC5VVgYF71o6yVbfGnzOjF1NIPLIuFJjyLZ5DH4gpVAZhPg64lsvSMEg3brZl+f8i9fjWH/yJw4zLnK05pXHQ=="}
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:56:15 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.5ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 129ms (Views: 125.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home/index" for 201.230.92.121 at 2015-06-12 17:56:23 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.3ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-12 17:56:30 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (0.3ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 200.0.118.173 at 2015-06-13 00:59:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (149.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (3348.3ms)
+Completed 200 OK in 8646ms (Views: 8090.4ms | ActiveRecord: 149.4ms)
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-ddfd5dbccae50b79c2c85aa4aa01a615c81ce5940224dc4c25e247411a8a45cc.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations_restaurant.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:02 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations_restaurant.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 200.0.118.173 at 2015-06-13 01:00:03 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 200.0.118.173 at 2015-06-13 01:00:04 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg_menu.png" for 200.0.118.173 at 2015-06-13 01:00:13 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 200.0.118.173 at 2015-06-13 01:00:47 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mDistrict Load (2.1ms)[0m  [1mSELECT `districts`.* FROM `districts`[0m
+  Rendered home/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 84ms (Views: 81.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations_restaurant.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-ddfd5dbccae50b79c2c85aa4aa01a615c81ce5940224dc4c25e247411a8a45cc.css?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:49 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/registrations_restaurant.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:50 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 200.0.118.173 at 2015-06-13 01:00:50 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/logo-c6efb8e93c727cf4a0e345cf20c96570a25b8c8b2954d63574d46e95d518f590.png" for 200.0.118.173 at 2015-06-13 01:00:50 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food1-423467205d52a7241e1b284089c89b9f4596025e151b652b2433286ffff3ea68.jpg" for 200.0.118.173 at 2015-06-13 01:00:52 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/food/food2-845ee88883d77f66669839786f58a58906843048da3d822f24023e469302990c.jpg" for 200.0.118.173 at 2015-06-13 01:00:54 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bg_menu.png" for 200.0.118.173 at 2015-06-13 01:01:04 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/clients/sing_up" for 200.0.118.173 at 2015-06-13 01:01:33 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/clients/sing_up"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (44.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (15.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (38.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (313.4ms)
+
+
+Started GET "/client/sing_up" for 200.0.118.173 at 2015-06-13 01:01:40 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/client/sing_up"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:29:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.0ms)
+
+
+Started GET "/clients/sign_up" for 200.0.118.173 at 2015-06-13 01:01:51 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered clients/shared/_links.html.erb (2.1ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (62.2ms)
+Completed 200 OK in 349ms (Views: 161.9ms | ActiveRecord: 41.0ms)
+
+
+Started GET "/restaurants/sign_up" for 200.0.118.173 at 2015-06-13 01:02:14 +0000
+Cannot render console from 200.0.118.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.6ms)
+  Rendered registrations_restaurant/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/sign_up" for 201.230.92.121 at 2015-06-13 03:21:42 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsRestaurantController#new as HTML
+  Rendered restaurants/shared/_links.html.erb (0.7ms)
+  Rendered registrations_restaurant/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 267ms (Views: 265.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-13 03:21:44 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/clients/sign_up" for 201.230.92.121 at 2015-06-13 03:21:45 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#new as HTML
+  Rendered clients/shared/_links.html.erb (0.4ms)
+  Rendered clients/registrations/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 585ms (Views: 422.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:21:49 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bg_menu.png" for 201.230.92.121 at 2015-06-13 03:21:55 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/clients" for 201.230.92.121 at 2015-06-13 03:22:26 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gm5gahtz0lVteixlirCQt98I9tn7BPigOiaviWx0afagfuICyHWG/zaLRthGFR/4vN2RwwjAkdBl02ngSb8UWg==", "client"=>{"email"=>"ricardo@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"Ricardo", "phone"=>"4545544"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mClient Exists (10.0ms)[0m  SELECT  1 AS one FROM `clients` WHERE `clients`.`email` = BINARY 'ricardo@hotmail.com' LIMIT 1
+  [1m[36mSQL (16.4ms)[0m  [1mINSERT INTO `clients` (`name`, `phone`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('Ricardo', '4545544', 'ricardo@hotmail.com', '$2a$10$p2OqCe8ATDQArCIev4LrS.Nafr.WdluJct8TpAxstAAZnZLflKdyy', '2015-06-13 03:22:27', '2015-06-13 03:22:27')[0m
+  [1m[35m (32.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.8ms)[0m  UPDATE `clients` SET `last_sign_in_at` = '2015-06-13 03:22:27', `current_sign_in_at` = '2015-06-13 03:22:27', `last_sign_in_ip` = '201.230.92.121', `current_sign_in_ip` = '201.230.92.121', `sign_in_count` = 1, `updated_at` = '2015-06-13 03:22:27' WHERE `clients`.`id` = 3
+  [1m[36m (14.4ms)[0m  [1mCOMMIT[0m
+Redirected to https://grupo-maxrgy.c9.io/
+Completed 302 Found in 1061ms (ActiveRecord: 77.8ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:22:28 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (1.8ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 201.230.92.121 at 2015-06-13 03:38:00 +0000
+Cannot render console from 201.230.92.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mDistrict Load (0.4ms)[0m  SELECT `districts`.* FROM `districts`
+  Rendered home/index.html.erb within layouts/application (318.9ms)
+Completed 200 OK in 479ms (Views: 455.0ms | ActiveRecord: 6.1ms)
